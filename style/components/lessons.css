@@ -1,0 +1,149 @@
+.lessons {
+    background-color: #FFFBED;
+    border-radius: 60px;
+    margin: 60px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lessons-img img {
+    border-radius: 0 60px 60px 0;
+    height: 100%;
+}
+
+.lessons-descr {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 120px;
+}
+
+.lessons-try {
+    width: 65%;
+    margin: 80px 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lessons-head h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.lessons-all {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.lessons-adults div {
+    border-bottom: 1px solid #236967;
+    width: 140px;
+    opacity: .5;
+    transition: .4s;
+}
+
+.lessons-children div {
+    margin: auto;
+    border-bottom: 1px solid #236967;
+    width: 140px;
+    opacity: .5;
+    transition: .4s;
+}
+
+.lessons-adults:hover div {
+    border-bottom: 2px solid #236967;
+    opacity: 1;
+}
+
+.lessons-children:hover div {
+    border-bottom: 2px solid #236967;
+    opacity: 1;
+}
+
+.lessons-close {
+    text-decoration: underline;
+}
+
+.lessons input {
+    border-radius: 5px;
+    border: 1px solid #FFECA0;
+    color: #363636;
+    font-size: 16px;
+}
+
+.input-radio label {
+    color: #363636;
+}
+
+.input-stroke {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+}
+
+.input-stroke input {
+    width: 100%;
+    height: 35px;
+}
+
+.input-stroke img {
+    position: absolute;
+    left: 300px;
+}
+
+.input-radio input {
+    margin-top:  20px;
+    width: 10px;
+    height: 10px;
+}
+
+.input-radio label {
+    font-size: 16px;
+    color: #363636;
+}
+
+.input-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-contact input {
+    margin-top: 20px;
+    width: 100%;
+    height: 35px;
+}
+
+.input-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-email input {
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+}
+
+.input-email button {
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #236967;
+    border: none;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+}
+
+.input-email button:hover {
+    background-color: rgb(254, 113, 103);
+}

@@ -1,0 +1,14 @@
+body {
+    background-color: #fff;
+    margin: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}

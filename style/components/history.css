@@ -1,0 +1,50 @@
+.history {
+    display: block;
+    margin: 150px 80px;
+}
+
+.history-head h2 {
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+}
+
+.history-head div {
+    background-color: #FFECA0;
+    height: 9px;
+    width: 320px;
+    position: relative;
+    top: -50px;
+    left: 0;
+    z-index: 0;
+}
+
+.history-line img {
+    width: 80%;
+    margin: 60px;
+}
+
+.history-item {
+    display: flex;
+    justify-content: space-around;
+    width: calc(80% - 30px);
+    padding-left: 40px;
+}
+.history-info {
+    display: block;
+    margin: 90px;
+}
+
+.history-info h2 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.history-info p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #363636;
+}

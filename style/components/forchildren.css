@@ -1,0 +1,50 @@
+.for-children {
+    display: flex;
+    justify-content: center;
+}
+
+.for-children-descr {
+    display: flex;
+    flex-direction: column;
+}
+
+.for-children-info {
+    display: flex;
+    justify-content: space-between;
+    width: calc(75% - 80px);
+}
+
+.for-children-head h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+    
+.for-children-head div {
+    background-color: #FFECA0;
+    height: 9px;
+    width: 100px;
+    position: relative;
+    top: -10px;
+    left: 0;
+    z-index: 0;
+}
+
+.for-children-info p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+.for-children-item ul {
+    list-style: none;
+    font-size: 16px;
+    line-height: 35px;
+    color: #363633;
+}
+  
+.for-children-item li:before {
+    content: '✓';
+    padding-right: 10px;
+}

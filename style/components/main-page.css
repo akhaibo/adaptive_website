@@ -1,0 +1,115 @@
+.main-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 70px 0;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 45px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.main-text button {
+    width: 230px;
+    height: 54px;
+    border-radius: 30px;
+    background-color: #236967;
+    border: none;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 130px;
+    transition: .4s;
+}
+
+.main-text button:hover {
+    background-color: rgb(254, 113, 103);
+}
+
+.study-lessons {
+    display: flex;
+    justify-content: left;
+}
+
+.study-adults {
+    position: relative;
+    margin-right: 50px;
+}
+
+.study-adults i {
+    position: absolute;
+    bottom: 20px;
+    left: 70px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #fff;
+}
+
+.study-children {
+    position: relative;
+}
+
+.study-children i {
+    position: absolute;
+    bottom: 20px;
+    left: 70px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #fff;
+}
+
+.study-language {
+    margin: 70px 0;
+    height: 274px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFBED;
+    border-radius: 60px;
+}
+
+.study-block {
+    margin: 75px 0 40px 213px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+.study-block h2 {
+    position: relative;
+    z-index: 1;
+}
+
+.study-block div {
+    background-color: #FFECA0;
+    height: 9px;
+    position: relative;
+    top: -10px;
+    left: 0;
+    z-index: 0;
+}
+
+.study-different--lang {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.study-different--lang div {
+    display: flex;
+    align-items: center;
+}
+
+.study-different--lang a {
+    padding-left: 30px;
+}
