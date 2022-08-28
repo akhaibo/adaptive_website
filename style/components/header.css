@@ -71,7 +71,11 @@
 }
 
 @media(max-width: 500px) {
-    .burger-menu-adaptive {
-        margin-left: 20px;
+    .burger-menu-adaptive img {
+        margin-left: 25px;
+        width: 30px;
+    }
+    .header-logo img {
+        width: 100%;
     }
 }

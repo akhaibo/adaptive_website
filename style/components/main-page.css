@@ -10,7 +10,7 @@
     margin: 70px 0;
 }
 
-h1 {
+.main-text h1 {
     font-weight: 900;
     font-size: 35px;
     line-height: 45px;
@@ -35,81 +35,58 @@ h1 {
     background-color: rgb(254, 113, 103);
 }
 
-.study-lessons {
-    display: flex;
-    justify-content: left;
+@media(max-width: 1000px) {
+    .main-text h1 {
+        font-size: 25px;
+        line-height: 2;
+        margin-bottom: 50px;
+    }
+    .main-illustration img {
+        width: 100%;
+    }
+    .main-text button {
+        width: 160px;
+        height: 44px;
+        font-size: 14px;
+    }
 }
 
-.study-adults {
-    position: relative;
-    margin-right: 50px;
+@media(max-width: 840px){
+    .main-text h1 {
+        font-size: 18px;
+        line-height: 2;
+        margin-bottom: 50px;
+    }
 }
 
-.study-adults i {
-    position: absolute;
-    bottom: 20px;
-    left: 70px;
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 700;
-    background-color: #fff;
+@media(max-width: 590px){
+    .main-illustration {
+        display: none;
+    }
+    .main-text {
+        margin: 0;
+    }
+    .main-text h1 {
+        font-size: 16px;
+        text-align: center;
+        color:  rgb(222, 97, 88);
+    }
+    .main-text button {
+        align-self: center;
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+        margin-bottom: 60px;
+    }
 }
 
-.study-children {
-    position: relative;
-}
-
-.study-children i {
-    position: absolute;
-    bottom: 20px;
-    left: 70px;
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 700;
-    background-color: #fff;
-}
-
-.study-language {
-    margin: 70px 0;
-    height: 274px;
-    display: flex;
-    flex-direction: column;
-    background-color: #FFFBED;
-    border-radius: 60px;
-}
-
-.study-block {
-    margin: 75px 0 40px 213px;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-right: auto;
-}
-
-.study-block h2 {
-    position: relative;
-    z-index: 1;
-}
-
-.study-block div {
-    background-color: #FFECA0;
-    height: 9px;
-    position: relative;
-    top: -10px;
-    left: 0;
-    z-index: 0;
-}
-
-.study-different--lang {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.study-different--lang div {
-    display: flex;
-    align-items: center;
-}
-
-.study-different--lang a {
-    padding-left: 30px;
+@media(max-width: 360px){
+    .main-text h1 {
+        font-size: 11px;
+    }
+    .main-text button {
+        width: 120px;
+        height: 35px;
+        font-size: 12px;
+    }
 }
