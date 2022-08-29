@@ -8,7 +8,7 @@
     margin-right: 50px;
 }
 
-.study-adults i {
+.study-adults a {
     position: absolute;
     bottom: 20px;
     left: 70px;
@@ -22,7 +22,7 @@
     position: relative;
 }
 
-.study-children i {
+.study-children a {
     position: absolute;
     bottom: 20px;
     left: 70px;
@@ -35,37 +35,29 @@
 .study-language {
     margin: 70px 0;
     height: 274px;
-    display: flex;
-    flex-direction: column;
     background-color: #FFFBED;
     border-radius: 60px;
 }
 
 .study-block {
-    margin: 75px 0 40px 213px;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
 
 .study-block h2 {
-    position: relative;
-    z-index: 1;
-}
-
-.study-block div {
+    margin-top: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
     background-color: #FFECA0;
-    height: 9px;
-    position: relative;
-    top: -10px;
-    left: 0;
-    z-index: 0;
 }
 
 .study-different--lang {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 30px;
 }
 
 .study-different--lang div {
@@ -78,17 +70,16 @@
 }
 
 @media(max-width: 840px) {
-    .study-lessons img {
+    /* .study-lessons img {
         width: 65%;
-    }
-    .study-lessons i {
+    } */
+    .study-lessons a {
         font-size: 16px;
     }
     .study-different--lang a {
         display: none;
     }
     .study-block {
-        margin: 30px 20px 30px 200px;
         text-transform: uppercase;
         font-weight: 700;
         margin-right: auto;
@@ -96,20 +87,29 @@
     .study-language {
         height: 200px;
     }
+    .study-block div{
+        display: none;
+    }
 }
 
 @media(max-width: 590px) {
-    .study-block {
-        margin: 30px 80px;
+    .study-lessons {
+        display: block;
+        justify-content: left;
     }
 }
 
-/* @media(max-width: 360px) {
-    .study-lessons img {
-        display: none;
+@media(max-width: 420px) {
+    .study-block h2 {
+        font-size: 14px;
+        text-align: center;
     }
-    .study-lessons i {
-        position: none;
-        font-size: 12px;
+    .study-language {
+        margin: 0;
+        height: 0;
     }
-} */
+    .study-different--lang img{
+        justify-content: center;
+        padding-left: 10px;
+    }
+}
