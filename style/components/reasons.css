@@ -4,21 +4,9 @@
 }
 
 .reason-head h2 {
-    width: 300px;
-    position: relative;
-    z-index: 1;
     text-transform: uppercase;
     font-weight: 700;
-}
-
-.reason-head div {
-    width: 65%;
     background-color: #FFECA0;
-    height: 9px;
-    position: relative;
-    top: -10px;
-    left: 0;
-    z-index: 0;
 }
 
 .reason-head p {
@@ -52,4 +40,31 @@
 .reason-block img {
     width: 40px;
     height: 40px;
+}
+
+@media(max-width: 1100px) {
+    .reason-block {
+        margin-left: 0;
+    } 
+    .reason-item {
+        display: block;
+    }
+}
+@media(max-width: 750px) {
+    .reasons {
+        display: block;
+    }
+    .reason-head p {
+        width: 100%;
+    }
+    .reason-block {
+        justify-content: start;
+        width: auto;
+    }
+}
+
+@media(max-width: 420px) {
+    .reasons {
+        margin-top: 180px;
+    }
 }
